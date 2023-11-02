@@ -23,12 +23,12 @@
       <form class="column is-half" id="city-form">
         <div class="field is-grouped">
             <p class="control is-expanded">
-              <input class="input" type="text" placeholder="Enter City">
+              <input class="input" id="input-city" type="text" placeholder="Enter City">
             </p>
             <p class="control">
-              <a class="button is-info">
+              <button type="submit" class="button is-info">
                 Search
-              </a>
+              </button>
             </p>
           </div>
       </form>
@@ -50,7 +50,16 @@
             Fullheight hero with navbar
           </p>
         </div>
+        <section class="currentWeather">
+            <div>
+                <h2 class="cityName"></h2>
+                <p class="currentTemp"></p>
+                <img class="currentIcon">
+            </div>
+          </section>
       </section>
+
+      
 
     <section class="columns">
       
