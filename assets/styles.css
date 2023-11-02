@@ -1,0 +1,14 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body{
+    background-image: url(./Images/clearsky.jpg);
+  /* min-height: 100%; */
+}
+
+.hero-body{
+    background-color: rgb(30, 76, 116);
+    max-height: 100%;
+}
+/* .hero{
+background-color: black;
+} */
